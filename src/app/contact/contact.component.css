@@ -1,0 +1,169 @@
+.Lets-Connect {
+    width: 393px;
+    height: 230px;
+    font-family: GillSans;
+    font-size: 96px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 5px;
+    color: #ffffff;
+    position: absolute;
+    top: 150px;
+    left: -100px
+  }
+  .Name {
+    width: 51px;
+    height: 21px;
+    font-family: Futura;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.43px;
+    color: #ffffff;
+  }
+  .form-control{
+    padding:40px 0;
+    background-color: transparent;
+    border:0px;
+    border-bottom: solid 1px #6cd2d7;
+  }
+  input::placeholder.John-Mike{
+    width: 137px;
+    height: 32px;
+    font-family: Futura;
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.23px;
+    color: #ffffff;
+  }
+  input::placeholder .Email {
+    width: 130px;
+    height: 58px;
+    opacity: 0.2;
+    -webkit-text-stroke: 1px #ffffff;
+    font-family: GillSans;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.46px;
+    color: rgba(4, 240, 147, 0);
+  }
+  input::placeholder.Message {
+    width: 200px;
+    height: 58px;
+    opacity: 0.2;
+    -webkit-text-stroke: 1px #ffffff;
+    font-family: GillSans;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.46px;
+    color: rgba(4, 240, 147, 0);
+  }
+  input::placeholder{
+    width: 200px;
+    height: 58px;
+    opacity: 0.2;
+    -webkit-text-stroke: 1px #ffffff;
+    font-family: GillSans;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.46px;
+    color: rgba(4, 240, 147, 0);
+  }
+  ._Contact {
+    width: 1440px;
+    height: 932px;
+    background-color: #285d98;
+  }
+  .SEND {
+    width: 143px;
+    height: 58px;
+    -webkit-text-stroke: 1px #ffffff;
+    font-family: GillSans;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.46px;
+    color: #ffffff;
+  }
+  .click {
+    width: 30px;
+    height: 15px;
+    font-family: Futura;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.07px;
+    color: #ffffff;
+    padding: 40px;
+  }
+  .Oval {
+    right: -150px;
+    width: 10px;
+    height: 10px;
+    background-color: #fa6400;
+    position: relative;
+    top: 240px;
+    border-radius: 50%;
+  }
+  .scroll-back {
+    width: 71px;
+    height: 15px;
+    font-family: Futura;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.07px;
+    color: #ffffff;
+    position: absolute;
+    left: 20px;
+    bottom: -3px;
+  }
+  form{
+    margin-top: 80px;
+    margin-left: -80px;
+  }
+  @media (max-width:576px){
+    .Lets-Connect{
+      text-align: center;
+      position: static;
+      margin-top: 30px;
+    }
+    .route{
+      display: none;
+    }
+    .form-control{
+      position: static;
+      padding: 50px;
+      margin: 20px;
+    }
+    .SEND{
+      position: static;
+      padding: 50px;
+      margin: 20px;
+    }
+    .click{
+      display: none;
+    }
+  }

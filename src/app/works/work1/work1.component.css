@@ -1,0 +1,125 @@
+.Welcome-to-CC {
+    width: 469px;
+    height: 230px;
+    font-family: GillSans;
+    font-size: 96px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 5px;
+    color: #ffffff;
+    animation: cc 20s ;
+    position: relative;
+    top: 200px;
+    left: -100px;
+    z-index: 1;
+  }
+  @keyframes cc {
+    0%, 8.3% { left: -100%; opacity: 0; }
+    8.3%,25% { left: 0%; opacity: 1; }
+  }
+  .Project-001-Copy {
+    z-index: 1;
+    left: 320px;
+    width: 177px;
+    height: 116px;
+    -webkit-text-stroke: 1px #ffffff;
+    font-family: GillSans;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.46px;
+    color: #ffffff;
+    position: absolute;
+    top: 230px;
+  }
+ .Oval { 
+    left: -250px;
+    bottom: 20px;
+    border: solid 1px #5d5d5d;
+    text-align: justify;
+    padding: 40px;
+    position: relative;
+    border-radius: 50%;
+  }
+  .Bitmap {
+    width: 476px;
+    height: 572px;
+    object-fit: contain;
+    background-image: url(/assets/images/work1/bitmap.png);
+    animation: swing 1s ease-in-out infinite alternate;
+  }
+  @keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+  .Group-6 {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 300px;
+    right: -50px;
+  }
+  .oval {
+    bottom: 360px;
+  width: 10px;
+  height: 10px;
+  background-color: #00f194;
+  position: relative;
+  border-radius: 50%;
+  left: 1150px;
+  }
+  .scroll {
+    width: 35px;
+    height: 15px;
+    font-family: Futura;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.07px;
+    color: #ffffff;
+    position: absolute;
+    left: 20px;
+    bottom: -3px;
+  }
+@media (max-width:576px){
+  
+  .Welcome-to-CC{
+    text-align: center;
+    position: static;
+  }
+  .wave{
+    display: none;
+  }
+  .Oval{
+    border: 3px solid #5d5d5d;
+    position: static;
+  }
+  .Bitmap{
+    position: static;
+    width: 400px;
+    background-size: cover;
+    transform: rotate(180deg);
+  }
+  .Project-001-Copy{
+    color: #fff;
+    text-align: center;
+    margin-top: 500px;
+    z-index: 1;
+    margin-left: -150px;
+  }
+  .Group-6{
+   margin-right: 400px;
+   position: static;
+   transform: rotate(325deg);
+  }
+  .route{
+    display: none;
+  }
+}

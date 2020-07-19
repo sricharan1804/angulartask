@@ -1,0 +1,50 @@
+.CC {
+  letter-spacing: 3px;
+  font-weight: 600;
+  width: 58px;
+  height: 32px;
+  color: #0ff4ff;
+  font-size: 40px;
+}
+.navbar{
+  margin: 10px;
+  padding: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-family: GillSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.07px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+}
+.active:after {
+  content: "•";
+  color: #0ff4ff;
+  text-shadow: #0ff4ff;
+  position: absolute;
+  bottom:35px
+}
+.actives:after {
+  content: "•";
+  color: #0ff4ff;
+  text-shadow: #0ff4ff;
+  margin: 10px;
+}
+.text-white{
+font-family: GillSans;
+font-size: 16px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.07px;
+color: #ffffff;
+}
+.text-white:hover{
+  background-color: transparent;
+}
